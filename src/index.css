@@ -1,0 +1,20 @@
+/* index.css */
+
+:root {
+  --gradient: linear-gradient(270deg, #c434ac 10%, #36c4bc 100%);
+  --reverse-gradient: linear-gradient(270deg, #36c4bc 10%, #c434ac 100%);
+  --primary-color: #c434ac;
+  --secondary-color: #36c4bc;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background: white;
+  color: #161513;
+  font-family: 'outfit';
+}
