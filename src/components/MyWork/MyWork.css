@@ -23,9 +23,9 @@
 .mywork-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: px;
+    gap: 50px;
     place-items: center;
-    width: 100%;
+    width: 200px;
     /* max-width: 0vw; */
     margin: 0px 50px;
     justify-content: center;
