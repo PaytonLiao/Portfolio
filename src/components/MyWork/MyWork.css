@@ -25,7 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
     place-items: center;
-    width: 150px;
+    width: 100px;
     /* max-width: 0vw; */
     margin: 0px 50px;
     justify-content: center;
@@ -33,7 +33,7 @@
 .mywork-container img{
     border-radius: 30px;
     box-sizing: border-box;
-    width: 500px;
+    width: 350px;
     height: auto;
     transition: 0.3s;
     cursor: pointer;
