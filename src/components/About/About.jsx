@@ -1,6 +1,6 @@
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '/payton_long_photo.jpg'
+import profile_img from '/payton_square_photo.jpg'
 
 
 const About = () => {

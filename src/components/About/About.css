@@ -28,12 +28,17 @@
 .about-sections {
     display: flex;
     gap: 80px;
+    flex-direction: column;
+}
+.about-left{
+    display: flex;
+    justify-content: center;
 }
 
 .about-left img{
-    height: 480px;
-    width: auto;
-    border-radius: 100px;
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .about-right {
