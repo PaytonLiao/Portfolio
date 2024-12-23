@@ -15,10 +15,14 @@ const Navbar = () => {
                 <li><AnchorLink className='anchor-link' href='#home'><p >Home</p></ AnchorLink></li>
                 <li><AnchorLink className='anchor-link' offset={50} href='#about'><p >About Me</p></ AnchorLink></li>
                 <li><AnchorLink className='anchor-link' offset={50} href='#skill'><p >Skills</p></ AnchorLink></li>
-                <li><AnchorLink className='anchor-link' offset={50} href='#work'><p >Portfolio</p></ AnchorLink></li>                
+                <li><AnchorLink className='anchor-link' offset={50} href='#work'><p >Portfolio</p></ AnchorLink></li>
                 <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p >Contact</p></ AnchorLink></li>
             </ul>
-            <div><AnchorLink className='anchor-link' offset={50} href='#contact'><p className='nav-connect'>Connect With Me</p></ AnchorLink></div>
+            <a href='https://www.linkedin.com/in/payton-liao/'>
+                <div>
+                    <p className='nav-connect'>Connect with me on LinkedIn</p>
+                </div>
+            </a>
         </div>
     )
 }
