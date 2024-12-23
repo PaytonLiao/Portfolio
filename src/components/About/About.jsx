@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            Hi, I&apos;m Payton Liao, a software developer driven by a passion for creating impactful and accessible web solutions. I specialize in crafting dynamic frontends and robust backends using tools like React, Django, and Javascript. </p>
+                            Hi, I&apos;m Payton Liao, a software developer driven by a passion for creating impactful and accessible web solutions. I specialise in crafting dynamic frontends and robust backends using tools like React, Django, and Javascript. </p>
                         <p>
                             Currently pursuing an MEng in Robotics and AI at UCL, I&apos;m blending my love for problem-solving with technical expertise to build meaningful web experiences. Let&apos;s connect to bring innovative ideas to life!
                         </p>

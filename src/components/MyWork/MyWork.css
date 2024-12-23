@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 80px;
+    margin: 80px 200px;
 }
 .mywork-title{
     position: relative;
@@ -25,7 +25,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
     place-items: center;
-    width: 100px;
+    width: 80%;
+    height: 100%;
     /* max-width: 0vw; */
     margin: 0px 50px;
     justify-content: center;
@@ -33,10 +34,17 @@
 .mywork-container img{
     border-radius: 30px;
     box-sizing: border-box;
-    width: 350px;
+    width: 400px;
     height: auto;
     transition: 0.3s;
     cursor: pointer;
+}
+.mywork-container-project p{
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .mywork-container img:hover{
     transform: scale(1.10);
@@ -65,11 +73,4 @@
 }
 .mywork-showmore img{
     height: 30px;
-}
-.mywork-container-project p{
-    font-size: 24px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
 }
