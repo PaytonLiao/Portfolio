@@ -23,10 +23,12 @@
 .mywork-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: px;
     place-items: center;
     width: 100%;
-    max-width: 100vw;
+    /* max-width: 0vw; */
+    margin: 0px 50px;
+    justify-content: center;
 }
 .mywork-container img{
     border-radius: 30px;
