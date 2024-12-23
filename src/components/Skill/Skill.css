@@ -1,9 +1,8 @@
-.skill{
+/* .skill{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* gap: 80px; */
     margin: 0px 80px ;
 }
 .skill-title{
@@ -32,4 +31,80 @@
     height: 90%;
     border-color: var(--primary-color);
     background: #161513;
+} */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 80px;
+}
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.services-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.services-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+    width: 90%;
+    height: auto;
+    /* place-items: center; */
+    /* width: 100%; */
+    /* max-width: 100vw; */
+}
+.services-format h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.services-format h2{
+    font-size: 38px;
+    font-weight: 800;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-format p{
+    /* color: #000; */
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+}
+.services-readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.services-format:hover{
+    color: white;
+    border: 2px solid ;
+    background: #000;
+    transform: scale(1.05);
+    transition: 0.4s;
 }

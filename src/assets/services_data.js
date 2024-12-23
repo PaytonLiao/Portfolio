@@ -1,34 +1,25 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Programming Languages",
+        s_desc:"Python, TypeScript/JavaScript, HTML/CSS, C/C++"
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Frameworks & Libraries:",
+        s_desc:"Express.js, Node.js, React, Vite/Tailwind CSS, Django, PyTorch, spaCy, OpenCV, Numpy, Pandas, REST/Postman"
     },
     {
         s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Tools",
+        s_desc:"MongoDB, MySQL, GitHub, GitLab, Linux"
     },
     {
         s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Specialties",
+        s_desc:" OOP, NLP, Machine Learning, Computer Vision, Frontend Web Development"
     },
-    {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
-    },
+
 ]
  
 export default Services_Data;
