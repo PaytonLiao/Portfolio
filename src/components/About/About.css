@@ -31,7 +31,8 @@
 }
 
 .about-left img{
-    width: 600px;
+    height: 480px;
+    width: auto;
     border-radius: 100px;
 }
 
