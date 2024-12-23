@@ -38,7 +38,7 @@ const About = () => {
                 <hr />
                 <div className="about-achievement">
                     <h1>Winner</h1>
-                    <p>of AI Hackathon London 2024</p>
+                    <p>OF AI HACKATHON LONDON 2024</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
