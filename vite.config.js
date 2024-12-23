@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.JPG'],
   base: "/Portfolio",
+  optimizeDeps: {
+    include: ['TagCloud']
+  }
 })
