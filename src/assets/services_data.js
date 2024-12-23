@@ -12,12 +12,12 @@ const Services_Data = [
     {
         s_no:"03",
         s_name:"Tools",
-        s_desc:"MongoDB, MySQL, GitHub, GitLab, Linux, REST/Postman"
+        s_desc:"MongoDB, MySQL, GitHub, GitLab, Linux, REST API"
     },
     {
         s_no:"04",
         s_name:"Specialties",
-        s_desc:" OOP, NLP, Machine Learning, Computer Vision, Fullstack Web Development"
+        s_desc:" OOP, NLP, Machine Learning, Computer Vision, WebDev"
     },
 
 ]
